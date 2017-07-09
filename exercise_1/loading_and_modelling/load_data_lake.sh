@@ -47,14 +47,19 @@ tail -n+2 "$OLD_FILE4" >$NEW_FILE4
 # create our hfs directory
 
 hdfs dfs -mkdir /user/w205/hospital_compare
+hdfs dfs -mkdir /user/w205/hospital_compare/hospitals
+hdfs dfs -mkdir /user/w205/hospital_compare/effective_care
+hdfs dfs -mkdir /user/w205/hospital_compare/readmissions
+hdfs dfs -mkdir /user/w205/hospital_compare/Measures
+hdfs dfs -mkdir /user/w205/hospital_compare/surveys_responses
 
 # copy the files to hdfs
 
-hdfs dfs -put $NEW_FILE0 /user/w205/hospital_compare
-hdfs dfs -put $NEW_FILE1 /user/w205/hospital_compare
-hdfs dfs -put $NEW_FILE2 /user/w205/hospital_compare
-hdfs dfs -put $NEW_FILE3 /user/w205/hospital_compare
-hdfs dfs -put $NEW_FILE4 /user/w205/hospital_compare
+hdfs dfs -put $NEW_FILE0 /user/w205/hospital_compare/hospitals
+hdfs dfs -put $NEW_FILE1 /user/w205/hospital_compare/effective_care
+hdfs dfs -put $NEW_FILE2 /user/w205/hospital_compare/readmissions
+hdfs dfs -put $NEW_FILE3 /user/w205/hospital_compare/Measures
+hdfs dfs -put $NEW_FILE4 /user/w205/hospital_compare/surveys_responses
 
 # change directory back to the original
 
