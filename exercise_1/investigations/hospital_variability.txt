@@ -1,0 +1,13 @@
+My understanding for this question is we want to get the top 10 hospitals with the most variability in quality scores. In the query, I query for the hospital name, and the calculate the variability of the score. And then group by hospital name and get the top 10 hospitals with the variability in decreasing order.
+
+Result:
+HOSPITAL DR SUSONI INC  265766.22222222225                                      
+HOSP COMUNITARIO BUEN SAMARITANO	191108.64
+HOSPITAL SAN FRANCISCO	144868.66666666666
+BELLA VISTA HOSPITAL	128866.6875
+HOSPITAL PAVIA SANTURCE	126736.0
+HOSPITAL MENONITA DE CAYEY	110176.68749999999
+COMMUNITY REGIONAL MEDICAL CENTER	104072.51555555555
+HOSPITAL DE LA CONCEPCION	94025.68749999999
+HOSPITAL UPR, DR  FEDERICO TRILLA	88640.63999999998
+PRESBYTERIAN COMMUNITY HOSP	88611.5
