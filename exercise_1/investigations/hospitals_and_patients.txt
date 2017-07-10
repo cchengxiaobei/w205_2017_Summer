@@ -1,0 +1,17 @@
+I query the average score for each hospital from effective care table and the average HCAHPSBaseScore from surveys response table. Then I joined the result together and get the top 10 hosptials with the most averge quality scores. From the result below we can not say these two scores has obvious correlation. Then I run the same query without limiting the result and only calculate the correlation. The result is around -0.286 which aligns with our observation.
+
+
+COMMUNITY REGIONAL MEDICAL CENTER       183.71428571428572      4.0             
+LAREDO MEDICAL CENTER	181.5	4.0
+ST FRANCIS HOSPITAL, ROSLYN	174.16666666666666	36.0
+KERN MEDICAL CENTER	169.25	1.0
+CLOVIS COMMUNITY MEDICAL CENTER	164.84615384615384	20.0
+LOMA LINDA UNIVERSITY MEDICAL CENTER	152.13333333333333	8.0
+ROSELAND COMMUNITY HOSPITAL	149.6	1.0
+HARRIS HEALTH SYSTEM	145.73333333333332	3.0
+LAC/HARBOR-UCLA MED CENTER	145.45454545454547	1.0
+ALASKA NATIVE MEDICAL CENTER	145.4	2.0
+
+
+correlation:
+-0.286395737684569
