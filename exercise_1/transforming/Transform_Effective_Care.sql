@@ -2,6 +2,7 @@ DROP TABLE my_care;
 CREATE  TABLE my_care as
 SELECT 
 provider_id,
+hospital_name,
 condition,
 measure_id,
 score,
