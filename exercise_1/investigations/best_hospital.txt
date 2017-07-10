@@ -1,4 +1,7 @@
-Based on the requirement of finding hospitals with highest quality of care, their aggregate and average quality scores and variablility in scores, I access the table of effective_care, did calculation on score in this table. And found out ten hopitals which are qualified.
+Based on the requirement of finding hospitals with highest quality of care, 
+their aggregate and average quality scores and variablility in scores, 
+I access the table of effective_care, did calculation on score in this table. 
+And found out ten hopitals which are qualified.
 
 
 HOSPITAL DR SUSONI INC  1264.0  1622.0  540.6666666666666       265766.22222222225
