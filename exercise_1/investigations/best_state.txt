@@ -1,0 +1,13 @@
+1. Calculate average score of hospitals for each state
+2. Find highest 10 states out
+
+SD      3.8571                                                                  
+DE	3.6667
+WI	3.6111
+MN	3.5316
+ID	3.5263
+IN	3.4815
+NH	3.48
+CO	3.451
+UT	3.4483
+ME	3.4375
