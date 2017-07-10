@@ -1,5 +1,6 @@
 DROP TABLE my_measure;
 CREATE  TABLE my_measure as
-SELECT *
+SELECT measure_name,
+measure_id
 from measures;
 
